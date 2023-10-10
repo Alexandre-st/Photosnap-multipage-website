@@ -1,0 +1,13 @@
+:root {
+  font-size: 10px;
+}
+
+.container {
+  width: min(100% - 4.8rem, 111rem);
+  margin-inline: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
